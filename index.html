@@ -1,65 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Tina's Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <!-- Header Section -->
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+    <header class="header">
+      <h1>Tina Danesh Maslak</h1>
+      <p>Web Developer | IT Helpdesk Support</p>
+      <nav>
+        <ul>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </header>
 
-    <!-- About Me Section -->
-    <section id="about">
-        <h1>About Me</h1>
-        <p>Hello! I'm Tina, a web developer passionate about creating interactive websites.</p>
+    <!-- Main Content -->
+    <section id="about" class="container">
+      <div class="box">
+        <h2>About Me</h2>
+        <p>
+          Hi, I'm Tina! I'm passionate about web development and IT support. I
+          love creating user-friendly websites and solving technical problems to
+          enhance the user experience.
+        </p>
+      </div>
     </section>
 
-    <!-- Projects Section -->
-    <section id="projects">
+    <section id="projects" class="container">
+      <div class="box">
         <h2>My Projects</h2>
-        <div class="project" data-description="Project 1: A responsive website built using HTML, CSS, and JavaScript.">
-            <h3>Project Name 1</h3>
-        </div>
-        <div class="project" data-description="Project 2: A web app built with React and Node.js.">
-            <h3>Project Name 2</h3>
-        </div>
+        <p>
+          Project 1: A responsive portfolio website built with HTML, CSS, and
+          JavaScript.
+        </p>
+        <p>Project 2: IT support ticketing system using ServiceNow platform.</p>
+      </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact">
+    <section id="contact" class="container">
+      <div class="box">
         <h2>Contact Me</h2>
-        <form id="contactForm">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" required>
-            
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required>
-            
-            <label for="message">Message</label>
-            <textarea id="message" name="message" required></textarea>
-            
-            <button type="submit">Send Message</button>
-        </form>
-        <p id="formStatus"></p>
+        <p>
+          Feel free to reach out to me via email at
+          <strong>tinadaneshmm@gmail.com</strong> or on
+          <a href="https://github.com/Tinadmm" target="_blank">GitHub</a>.
+        </p>
+        <button id="contactButton">Get In Touch</button>
+      </div>
     </section>
 
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2024 Tina Danesh Maslak</p>
+    <!-- Footer Section -->
+    <footer class="footer">
+      <p>&copy; 2024 Tina Danesh Maslak | All Rights Reserved</p>
     </footer>
 
-    <!-- Link to JS File -->
+    <!-- JavaScript -->
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
