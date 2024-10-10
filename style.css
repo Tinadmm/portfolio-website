@@ -1,98 +1,75 @@
-/* Global Styles */
+/* General Styles */
 body {
   font-family: "Arial", sans-serif;
+  background-color: #f3e5f5; /* Light lavender */
   margin: 0;
   padding: 0;
-  background-color: #f4f4f9;
-  color: #333;
-  line-height: 1.6;
 }
 
-.container {
-  width: 80%;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-h1,
-h2 {
-  color: #0073e6;
-  text-align: center;
-}
-
-p {
-  text-align: center;
-  font-size: 18px;
-}
-
-/* Header Section */
 header {
-  background-color: #0073e6;
+  background-color: #7b68ee; /* Periwinkle */
   color: white;
-  padding: 20px 0;
-  text-align: center;
-}
-
-/* About Section */
-#about {
-  background-color: #ffffff;
   padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  margin-top: 20px;
-}
-
-#about p {
-  text-align: justify;
-}
-
-/* Projects Section */
-#projects ul {
-  list-style: none;
-  padding: 0;
   text-align: center;
 }
 
-#projects li {
-  margin-bottom: 10px;
+h1 {
+  color: #663399; /* Violet */
+  margin: 0;
 }
 
-#projects a {
-  color: #0073e6;
-  text-decoration: none;
-  font-weight: bold;
+nav {
+  margin-top: 10px;
 }
 
-#projects a:hover {
-  text-decoration: underline;
-}
-
-/* Contact Section */
-#contact {
-  margin-top: 40px;
-  text-align: center;
-}
-
-#contactButton {
-  background-color: #0073e6;
-  border: none;
-  color: white;
+nav a {
+  color: #ffffff;
+  background-color: #9370db; /* Lighter violet */
   padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
+  margin: 0 5px;
   border-radius: 5px;
-  transition: background-color 0.3s ease;
+  text-decoration: none;
 }
 
-#contactButton:hover {
-  background-color: #005bb5;
+nav a:hover {
+  background-color: #8a2be2; /* Darker violet */
 }
 
-/* Footer Section */
-footer {
-  background-color: #0073e6;
+section {
+  padding: 40px;
+  background-color: #e6e6fa; /* Light lavender */
+}
+
+h2 {
+  color: #483d8b; /* Darker periwinkle */
+  border-bottom: 2px solid #8a2be2; /* Violet border */
+  padding-bottom: 10px;
+}
+
+p,
+li {
+  color: #333;
+}
+
+.contact-button {
+  display: inline-block;
+  padding: 10px 25px;
   color: white;
-  padding: 10px 0;
+  background-color: #9370db; /* Lighter violet */
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.contact-button:hover {
+  background-color: #663399; /* Violet */
+}
+
+footer {
+  background-color: #7b68ee; /* Periwinkle */
+  color: white;
+  padding: 20px;
   text-align: center;
-  margin-top: 40px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }

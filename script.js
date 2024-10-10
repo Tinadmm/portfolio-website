@@ -1,14 +1,12 @@
-// JavaScript for simple interactivity
+// Example JavaScript functionality
+document.addEventListener("DOMContentLoaded", function () {
+  // Add a simple console log to test if the JS is working
+  console.log("JavaScript is linked and working!");
 
-document.getElementById("contactButton").addEventListener("click", function () {
-  alert("Thanks for your interest! I will get back to you soon.");
-});
+  // You can add more interactive features here
+  const contactButton = document.querySelector(".contact-button");
 
-// Smooth scrolling for navigation links
-document.querySelectorAll("nav a").forEach((anchor) => {
-  anchor.addEventListener("click", function (event) {
-    event.preventDefault();
-    const targetSection = document.querySelector(this.getAttribute("href"));
-    targetSection.scrollIntoView({ behavior: "smooth" });
+  contactButton.addEventListener("click", function () {
+    alert("Redirecting you to send an email...");
   });
 });
