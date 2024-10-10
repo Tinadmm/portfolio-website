@@ -1,6 +1,6 @@
 /* Global Styles */
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f4f4f9;
@@ -14,7 +14,8 @@ body {
   padding: 20px;
 }
 
-h1, h2 {
+h1,
+h2 {
   color: #0073e6;
   text-align: center;
 }
@@ -63,4 +64,35 @@ header {
 }
 
 #projects a:hover {
-  text-decoration:
+  text-decoration: underline;
+}
+
+/* Contact Section */
+#contact {
+  margin-top: 40px;
+  text-align: center;
+}
+
+#contactButton {
+  background-color: #0073e6;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+#contactButton:hover {
+  background-color: #005bb5;
+}
+
+/* Footer Section */
+footer {
+  background-color: #0073e6;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  margin-top: 40px;
+}
