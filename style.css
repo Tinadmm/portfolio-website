@@ -1,93 +1,36 @@
-/* General Styles */
 body {
-  font-family: "Arial", sans-serif;
-  background-color: #f3e5f5; /* Light lavender */
-  margin: 0;
-  padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #E6E6FA; /* Lavender */
+    color: #4B0082; /* Indigo */
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 header {
-  background-color: #7b68ee; /* Periwinkle */
-  color: white;
-  padding: 20px;
-  text-align: center;
-}
-
-h1 {
-  color: #663399; /* Violet */
-  margin: 0;
-}
-
-nav {
-  margin-top: 10px;
+    background-color: #9370DB; /* Medium Purple */
+    padding: 20px;
+    color: white;
 }
 
 nav a {
-  color: #ffffff;
-  background-color: #9370db; /* Lighter violet */
-  padding: 10px 20px;
-  margin: 0 5px;
-  border-radius: 5px;
-  text-decoration: none;
-}
-
-nav a:hover {
-  background-color: #8a2be2; /* Darker violet */
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 section {
-  padding: 40px;
-  background-color: #e6e6fa; /* Light lavender */
+    margin: 40px auto;
+    width: 80%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px gray;
 }
 
-h2 {
-  color: #483d8b; /* Darker periwinkle */
-  border-bottom: 2px solid #8a2be2; /* Violet border */
-  padding-bottom: 10px;
-}
-
-p,
-li {
-  color: #333;
-}
-
-.contact-button {
-  display: inline-block;
-  padding: 10px 25px;
-  color: white;
-  background-color: #9370db; /* Lighter violet */
-  border-radius: 5px;
-  text-decoration: none;
-}
-
-.contact-button:hover {
-  background-color: #663399; /* Violet */
-}
-/* Style for the contact button */
-.contact-button,
-.linkedin-button {
-  display: inline-block;
-  padding: 10px 20px;
-  margin: 10px 0;
-  background-color: #7c4c92; /* Violet shade */
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-  font-weight: bold;
-  transition: background-color 0.3s;
-}
-
-.contact-button:hover,
-.linkedin-button:hover {
-  background-color: #6a3a81; /* Darker violet on hover */
-}
-
-footer {
-  background-color: #7b68ee; /* Periwinkle */
-  color: white;
-  padding: 20px;
-  text-align: center;
-  position: relative;
-  bottom: 0;
-  width: 100%;
+a {
+    color: #4B0082;
+    text-decoration: none;
+    font-weight: bold;
 }
